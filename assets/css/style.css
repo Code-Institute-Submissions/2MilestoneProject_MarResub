@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-size: 600px;
     font-weight: 700;
@@ -30,12 +34,42 @@ p{
     padding-top: 90px;
     min-height: 800px;
     color: #fafafa;
-}
 
+}
+.navbar{
+    position: sticky;
+    
+}
 .nav-link {
     color: #808080;
     font-size: 18px;
     font-family: sans-serif; 
+    font-style: bold;
 }
 .nav-link:hover {
     color:#572364 ;
+
+}
+.navbar-brand{    
+    color: #800080 ;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.navbar-brand:hover{
+      color: #808080;
+}
+#destination {
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    background-color: #ffb6c1;
+}
+#about {
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 800px;
+    background-color:#DDA0DD;
+}
