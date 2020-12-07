@@ -37,7 +37,8 @@ p{
 
 }
 .navbar{
-    position: sticky;
+    position: fixed-top;
+    background-color: #fafafa;
     
 }
 .nav-link {
@@ -50,7 +51,7 @@ p{
     color:#572364 ;
 
 }
-.navbar-brand{    
+.navbar-brand {    
     color: #800080 ;
     font-size: 23px;
     font-family: sans-serif;
@@ -58,9 +59,11 @@ p{
     letter-spacing: 3px;
 
 }
-.navbar-brand:hover{
+.navbar-brand:hover {
       color: #808080;
 }
+
+
 #destination {
     background-size: cover;
     padding-top: 90px;
