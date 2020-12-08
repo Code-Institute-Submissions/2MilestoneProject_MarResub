@@ -88,12 +88,13 @@ Tested the website in different browsers:
 I have also used the Inspect tool from Google Chrome to text the responsiveness of the website in different size devices and no errors have been shown
 at the console. 
 I have encountered few issues during the code validation process:
- 1. Few CSS properties had the wrong attributes
- 2. Some HTML tags where at the wrong postion.
- 3. The "Submit" button of the contact page was outside the form.
+ 1. Few CSS properties had the wrong attributes - fixed
+ 2. Some HTML tags where at the wrong postion - fixed
+ 3. The "Submit" button of the contact page was outside the form. - fixed
  4. Encountered few issues when linking the emailJS API to my website getting 404 error back. 
  To resolve the issue I had to move the email JS code to a different file (email.js)
- 5. Seems to be an issue I cannot identify when linking emailJS, seems to be an issue with the user ID.
+ 5. Seems to be an issue I cannot identify when linking emailJS. I do not recieve the emails to the email linked.
+ 
 
 
 ## Deployment ## 
