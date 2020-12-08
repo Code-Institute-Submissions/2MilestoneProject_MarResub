@@ -37,7 +37,7 @@ i wanted to use, in addition I start to decide the images I will go for, or at l
 
    <img src="assets/img/wireframes/wf1.jpg" alt="wireframe1" width="400" height="400"/>
    <img src="assets/img/wireframes/wf2.jpg" alt="wireframe2" width="400" height="400"/> 
-   <img src="assets/img/wireframe/wf3.jpg" alt="wireframe3" width="400" height="400"/>  
+   <img src="assets/img/wireframes/wf3.jpg" alt="wireframe3" width="400" height="400"/>  
     
    
 
