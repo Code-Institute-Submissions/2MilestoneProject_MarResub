@@ -1,70 +1,68 @@
-# MY PORTFOLIO #
+# HOLi-Dreams #
 
-For my first Milestone project I have decided to create my portfolio web in a way that with the time will be very easy to adjust and modify in terms of
-new skills and expierience are gained during my time as a Code Institute student and profesional expirience is acquired in the future.
-The way my portfolio is been designed and structured completely cuptures my essence; the colors chosen, the fonts, the images, 
-they all express and discribe my persona in a way.
-I felt very special during the proccess of the creation of this project , not only because was my first time developing something on my own, also
-because I had to capture myself into coding.
-
+For the second Milestone Project I have decided to develop the concept of a Holiday Agency that launches three different holiday packages
+every month. The site is very visual and engaging. Allows the user to see which kind of holliday pack is been launched each month and request 
+full information to the agency that will help out on the booking and assesing process.
 
  
 ## UX ##
 
 Project Goals:
- * Present my professional profile 
- * Be able to get an intern-shift where I will be able to acquire more experience and  knowledge.
- * Find a job.
+ * Offer a new point of view in terms on booking holidays through and agency.
+ * Engage with actual and future clients, as new products are always available using pictures of the places and the actual location of the three posible destinations.
+ * Provide best service when asesoring and presenting the travel options, so clients can fulfil their needs.
 
 ### Design Process ###
 
 ##### Strategy Plane: ####
 
-The main goal of the website is to create a good website portfolio which will help me to access to new professional opportunities.
+The main goal of the website is to ease the effort of the clients when looking for a getaway. The holiday packs are available only during
+one month to buy or reserve but the date of the trip can be anytime.
+A more visuable and detailed approach.
+
 
 #### Scope Plane: ####
 
-The features of the website were developed based on user needs. In terms of what a good portfolio should have and how should be designed to be my introduction to future employers.
+The features of the website were developed based on user needs. What a holiday finder website should have?
  * How many pages it will have.
  * Decide if the pages will be scrollable or separate.
- * Do online researches of other people online portfolios.
- * Use Code Institute Career services documentation to be able to spot which ones are my needs when creating my portfolio and CV.
+ * Do online researches of other holiday websites and applications.
+ * Use my personal expirience as a consumer.
 
 #### Skeleton Plane: #### 
 
 At this step of the designing process I have used Balsamiq wireframes to capture my overall idea and organization of the project.
-Also at this step of the process is when I had my first mentor session where I had a very constructive input and feedback from my mentor who helped me to have a different vision regarding my project. 
+Also I had the mentor session at this point, where I could decide what was the best structure of the project. Visual design and also the color palette
+i wanted to use, in addition I start to decide the images I will go for, or at least the type I would look for.
 
-   <img src="assets/images/wf1.png" alt="wireframe1" width="400" height="400"/>
-   <img src="assets/images/wf2.png" alt="wireframe2" width="400" height="400"/> 
-   <img src="assets/images/wf3.png" alt="wireframe3" width="400" height="400"/>  
-   <img src="assets/images/wf4.png" alt="wireframe4" width="400" height="400"/>  
+   <img src="assets/img/wireframes/wf1.jpg" alt="wireframe1" width="400" height="400"/>
+   <img src="assets/img/wireframes/wf2.jpg" alt="wireframe2" width="400" height="400"/> 
+   <img src="assets/img/wireframe/wf3.jpg" alt="wireframe3" width="400" height="400"/>  
+    
    
 
  
 #### Surface Plane: ####
 
 At this stage of the process, I proceeded to start to design the website using Bootstrap. 
-The hero image was taken from Unsplash library [Unsplash](https://unsplash.com/) and the picture used at the resume page was made with [Bitmoji app](https://www.bitmoji.com/).
-The typography used is from Google Fonts – Raleway [Google Fonts](https://fonts.google.com/)
+At the beggining of the designing process I decided to create a site which counted with at least 3 different and independant page, 
+however I was not happy with the results , from the User expirience perspective and I decided to change it and do a scrollable website.
+The hero image was taken from Unsplash library [Unsplash](https://unsplash.com/).
+The typography used is from Google Fonts – Nixie One [Google Fonts](https://fonts.google.com/)
 Colors used from the CSS3 palette color available at [W3Schools.com](https://www.w3schools.com/cssref/css_colors.asp)
 
 ## Features ##
 
-The website counts with four different and independant pages , in within we can find , Home, Resume, Projects and Contact:
+The website counts with three pages, likable by the nav bar, making the navigation easy and handy;home page , destination page and contact page.
 
-1. The Home page counts with a full screen landing image , an h1 with my name and straight down my "job role" to be. 
-a header with a navbar and a footer. 
-2. The Resume page stresses my an "about me" section , contact details, my education and my work expirience. 
-3. The Project page is been designed with a Bootstrap card lay out, to organise and explain the projects I will be doing during the course
-at Code Institute.
-4. The Contact page is a direct link to send me an email , and again my contact details. Also counts with the same landing image background than the Home page. 
-This is being thought as the cover and the back cover of a book. 
+1. The Home page counts with a full screen landing image , the slogan and animated text presenting the destinations available of the month and 
+   a google maps direct access where you can quickly spot the locations.
+2. The Destinations page, offers a bootstrap interactive card lay out , with images and full description of the options you can choose.
+3. The Contact page invites the user to connect with the agency directly and have a personalised expirience.
 
 Features Left to Implement
 
-* As soon as I have more personal projects I will be adding them with pictures and links
-* I will be implementing JavaScript features when I will be able to.
+* 
 
 Technologies Used:
  1. HTML5 : Used to create the form and the content of the web site
@@ -72,15 +70,17 @@ Technologies Used:
  2.	CSS3 : Used to style the HTML
  3. Bootstrap Frameworks: Used some components; Header , footer and the card layout. 
     Also used the grid system to make the website responsive for all size devices.
- 4. Gitpod and Github to write , test and deploy my code. 
- 5. JQuery The project uses JQuery to simplify DOM manipulation.
+ 4. JavaScript to implement the interactive and contemporanean approach. 
+ 5. Gitpod and Github to write , test and deploy my code. 
+ 6. JQuery The project uses JQuery to simplify DOM manipulation.
     
 
 ## Testing ##
 
 I have Validated the code using: 
- * HTML   [HTML-Validator](https://validator.w3.org/#validate_by_input)
+ * HTML   [HTML-Validator](https://validator.w3.org/#validate_by_input) 
  * CSS    [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+   
 
 Tested the website in different browsers:    
 * Chrome
@@ -88,7 +88,14 @@ Tested the website in different browsers:
 * Mozilla Firefox 
 * Safary
     
-I have also used the Inspect tool from Google Chrome to text the responsiveness of the website in different size devices. 
+I have also used the Inspect tool from Google Chrome to text the responsiveness of the website in different size devices and no errors have been shown
+at the console. 
+I have encountered few issues during the code validation process:
+ 1. Few CSS properties had the wrong attributes
+ 2. Some HTML tags where at the wrong postion.
+ 3. The "Submit" button of the contact page was outside the form.
+ 4. Encountered few issues when linking the emailJS API to my website getting 404 error back. 
+ To resolve the issue I had to move the email JS code to a different file (email.js)
 
 
 ## Deployment ## 
@@ -99,7 +106,7 @@ Deployment steps:
 
 1. Log in into my GitHub 
 2. Go to my repositories
-3. choose the repository called 1MILESTONEPROJECT
+3. choose the repository called 2MILESTONEPROJECT
 4. Settings
 5. Select Master branch
 6. Validate selection.
@@ -125,19 +132,18 @@ Steps to run the code locally:
     - [Navbar](https://getbootstrap.com/docs/4.5/components/navbar/)
     - [Footer](https://getbootstrap.com/docs/4.5/components/card/#header-and-footer)
     - [Card-structure](https://getbootstrap.com/docs/4.5/components/card/)
+    - [Text-Animation](https://speckyboy.com/css-javascript-text-animation-snippets/)
 ### Media ### 
-- The Hero image from the Website is been taken from [Unsplash](https://unsplash.com/)
-- my profile picture at the resume page is been done with [Bitmoji app](https://www.bitmoji.com/)
+- All the images from the Website have  been taken from [Unsplash](https://unsplash.com/)
 
 ### Acknowledgements ### 
 I  founded very helpful and inspirational this websites and videos:
 - [W3Schools.com](https://www.w3schools.com/cssref/css_colors.asp).
 - [MDB](https://mdbootstrap.com/).
-- [Designer-daily](https://www.designer-daily.com/portfolio-desig-10009)
+- [Onthebeach](https://www.onthebeach.co.uk/holidays?mv_pc=googlecpc&CampaignID=211389743&AdGroupID=14671341383&Keyword=kwd-696602348&MatchType=e&Device=c&AdID=391232768787&gclid=Cj0KCQiA5bz-BRD-ARIsABjT4ni3YJOeCVZ5-yHbUNmXAGWn2V9FLjhfYQBvLLBrl9sId-qzjr-wBTQaAqMhEALw_wcB)
 - How to use the Bootstrap 4 grid - Demo site by Anna Gilhespy [Video](https://www.youtube.com/watch?v=zDpCejbl1sU)
-- Bootstrap tutorial (Spanish) [video](https://www.youtube.com/watch?v=59pex8k8Xr8).
+- JavaScript tutorial [video](https://www.youtube.com/watch?v=W6NZfCO5SIk).
 - Website tutorial with bootstrap [Video](https://www.youtube.com/watch?v=9cKsq14Kfsw).
 - [Stackoverflow](https://stackoverflow.com/).
 - Slack Community. 
 - All the tutors who had assisted me during the process, the were all helpful and extremelly kind.
-- Mark Railton , my mentor, I don't have enough words to thank him all the support and patience.
