@@ -47,17 +47,16 @@
       <div class="content-center">
         <h1 id="typewritter">BEAUTY, CHARM AND ADVENTURE</h1>
         <p>"The holiday destination of your dreams."</p>
-         <p> This month travel to:
+         <p> This month travel to:</p>
             <h3><span
                 class="txt-rotate"
                 data-period="2000"
                 data-rotate='[ "Patagonia (ARG).", "Croatia (Cro).", "Santa Marta (COL)." ]'> </span>
             </h3>    
-          </p>
+          
             
       </div>
     </div>
-    <h3></h3>
     <!--The div element for the map -->
     <div id="map"></div>
     </section>
@@ -148,32 +147,20 @@
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
             <form onsubmit="return sendMail(this);">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
+              <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="">Your name</label>
                         </div>
                     </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
+                            <input type="text" id="email" name="emailaddress" class="form-control">
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
-                    <!--Grid column-->
-
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="sm-form mb-0">
@@ -182,14 +169,8 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
                 <div class="row">
-
-                    <!--Grid column-->
                     <div class="col-md-12">
-
                         <div class="md-form">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                             <label for="message">Your message</label>
@@ -197,14 +178,11 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
-
             </form>
-
             <div class="text-center text-md-left">
-                <a class="btn btn-success">Send</a>
+                <button type="submit" class="btn btn-success center-block"> Send</button>
             </div>
-            <div class="status"></div>
+           
         </div>
         <!--Grid column-->
 

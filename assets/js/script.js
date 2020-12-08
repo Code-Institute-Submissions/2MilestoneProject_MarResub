@@ -56,7 +56,7 @@ window.onload = function() {
 // Initialize and add the map
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 5,
+      zoom: 2,
       center: {
           lat: 46.619261,
           lng: -33.134766
@@ -110,8 +110,18 @@ function sendMail(conctactForm){
     emailjs.send("Gmail","template_8oourjn",{
         "from_name": conctactForm.name.value,
         "from_email": conctactForm.emailaddress.value,
-        "info_request": contactForm.infosummary.value,
-       
-        return: false
-    });
-} 
+        "info_request": contactFormsubject.value, 
+        
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
+}
+
+

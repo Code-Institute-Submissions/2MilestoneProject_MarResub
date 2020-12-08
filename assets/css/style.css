@@ -38,8 +38,8 @@ p{
 .card-text {
     font-size: 10px;
     font-family : sans-serif;
-    text-align: center;
-    text-justify: left;
+    text-align: left;
+
 }
 
 
@@ -54,15 +54,15 @@ p{
 
 }
 .navbar{
-    position: fixed-top;
     background-color: #fafafa;
+    position: fixed;
     
 }
 .nav-link {
     color: #808080;
     font-size: 18px;
     font-family: sans-serif; 
-    font-style: bold;
+    font-weight: bolder;
 }
 .nav-link:hover {
     color:#572364 ;
@@ -91,11 +91,9 @@ p{
 }
 #contact{
     background-size: cover;
-    margin-top: ($spacer * .3) !important;
-    margin-bottom: ($spacer * .3) !important;
     min-height: 800px;
     background-color: #7FFFD4;
-    pd
+    
 }
 
 /* Set the size of the div element that contains the map */
