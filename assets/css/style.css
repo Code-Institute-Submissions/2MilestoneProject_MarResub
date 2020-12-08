@@ -20,7 +20,7 @@ h2 {
     font-family: 'Nixie One', sans-serif;
     line-height: 130px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: auto;
     padding-bottom: 10px;
     
 }
@@ -91,4 +91,14 @@ p{
     padding-top: 90px;
     min-height: 800px;
     background-color: #ffff80;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+   margin: 0 auto;
+   width:100%;
+   max-width:800px;
+   height:60vh;
+   min-height:250px;
+   padding-bottom: 20px;
 }

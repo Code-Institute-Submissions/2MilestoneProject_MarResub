@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
+    <script type="text/javascript">
+        (function() {
+          emailjs.init("user_xy10aEP9r6GKP0X6emdCQ"); 
+             })();
+    </script>
+    
     <title>HOLi-Dreams</title>
 </head>
 <body>
@@ -45,6 +52,9 @@
         <p> The holiday destination of your dreams.</p>
       </div>
     </div>
+    <h3></h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
     </section>
     <section id="destination"> 
       <div class="container">
@@ -55,7 +65,7 @@
                 <img class="card-img-top" src="assets/img/patagonia.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title">Patagonia</h5>
-                <p class="card-text">
+                <p class="card-text text-sm-left">
                 Is a sparsely populated region at the southern end of South America, 
                 shared by Argentina and Chile. The region comprises the southern section of the Andes Mountains, 
                 lakes, fjords, and glaciers in the west and deserts, tablelands and steppes to the east.
@@ -74,7 +84,7 @@
                 <img class="card-img-top" src="assets/img/croatia.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title">Croatia</h5>
-                <p class="card-text">
+                <p class="card-text text-sm-left">
                 Croatia is located in Central and Southeast Europe, on the coast of the Adriatic Sea.
                 Counting with a wide list of excursions and routes.Highly recomended for everyone who is looking
                 for a peaceful gateaway while visiting Croatia North to South.</p>
@@ -92,7 +102,7 @@
                 <img class="card-img-top" src="assets/img/colombia.jpg" alt="Card image cap">
                 <div class="card-body">
                 <h5 class="card-title">Colombia</h5>
-                <p class="card-text"> 
+                <p class="card-text text-sm-left"> 
                 Northwestern South America. 
                 A ideal destination for travellers aiming to relax, discover its gastronomy and engage with local comunity.
                 This package is suitable for family, friends and couples.</p>
@@ -147,6 +157,8 @@
     <a href="https://www.linkedin.com/in/sara-sanchez-rodrigo-4b64451aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
  </div>
 </footer>
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0nSS8zJQvnHqHu8ogzNFYt6LTvL0lJHk&callback=initMap"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

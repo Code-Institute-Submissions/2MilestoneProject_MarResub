@@ -1,11 +1,15 @@
-var i = 0;
-var txt = 'BEAUTY, CHARM AND ADVENTURE'; 
-var speed = 50; 
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typewritter").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
 }
