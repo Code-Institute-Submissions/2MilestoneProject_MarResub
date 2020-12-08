@@ -60,9 +60,6 @@ The website counts with three pages, likable by the nav bar, making the navigati
 2. The Destinations page, offers a bootstrap interactive card lay out , with images and full description of the options you can choose.
 3. The Contact page invites the user to connect with the agency directly and have a personalised expirience.
 
-Features Left to Implement
-
-* 
 
 Technologies Used:
  1. HTML5 : Used to create the form and the content of the web site
@@ -96,6 +93,7 @@ I have encountered few issues during the code validation process:
  3. The "Submit" button of the contact page was outside the form.
  4. Encountered few issues when linking the emailJS API to my website getting 404 error back. 
  To resolve the issue I had to move the email JS code to a different file (email.js)
+ 5. Seems to be an issue I cannot identify when linking emailJS, seems to be an issue with the user ID.
 
 
 ## Deployment ## 
@@ -112,7 +110,7 @@ Deployment steps:
 6. Validate selection.
 7. The ulr of the website is displayed.
 
-You can see the website [here](https://sarasanchezz.github.io/1MilestoneProject/)
+You can see the website [here](https://sarasanchezz.github.io/2MilestoneProject/)
 
 Steps to run the code locally:
 

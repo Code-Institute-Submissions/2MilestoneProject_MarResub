@@ -4,6 +4,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/* text decorations*/
 h1 {
     font-size: 600px;
     font-weight: 700;
@@ -43,6 +44,7 @@ p{
 }
 
 
+/* Home page */
 
 #hero{
     background: 
@@ -53,6 +55,8 @@ p{
     color: #fafafa;
 
 }
+
+/* Navbar and its text*/
 .navbar{
     background-color: #fafafa;
     position: fixed;
@@ -81,6 +85,7 @@ p{
 }
 
 
+/* destination page */
 #destination {
     background-size: cover;
     padding-top: 100px;
@@ -89,6 +94,8 @@ p{
     
     
 }
+
+/* contact page*/
 #contact{
     background-size: cover;
     min-height: 800px;
@@ -96,7 +103,7 @@ p{
     
 }
 
-/* Set the size of the div element that contains the map */
+/* Map */
 #map {
    margin: 0 auto;
    width:100%;
