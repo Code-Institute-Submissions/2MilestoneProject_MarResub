@@ -7,22 +7,36 @@ html{
 h1 {
     font-size: 600px;
     font-weight: 700;
-    line-height: 130px;
+    line-height: 200px;
     font-family: 'Nixie One', sans-serif;
     text-align: center;
     margin: auto;
     letter-spacing: 7px; 
-    padding: 8px;  
+    padding: 20px;  
 }
-
+h2 {
+    font-size: 800px;
+    font-weight: 700;
+    font-family: 'Nixie One', sans-serif;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 10px;
+    
+}
 p{ 
-   
    font-size: 25px;
    font-weight: 500;
    letter-spacing: 2px;
    font-family: 'Nixie One', sans-serif;
    text-align: center;
    margin: auto;
+}
+.card-text {
+    font-size: 10px;
+    font-family : sans-serif;
+    text-align: center;
+    text-justify: left;
 }
 
 
@@ -66,13 +80,15 @@ p{
 
 #destination {
     background-size: cover;
-    padding-top: 90px;
+    padding-top: 100px;
     min-height: 800px;
-    background-color: #ffb6c1;
+    background-color: #66CDAA;
+    
+    
 }
 #about {
     background-size: cover;
     padding-top: 90px;
     min-height: 800px;
-    background-color:#DDA0DD;
+    background-color: #ffff80;
 }
