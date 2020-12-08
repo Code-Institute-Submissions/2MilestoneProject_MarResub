@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script src="assets/js/script.js"> </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+    <script src="assets/js/script.js"> </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
     <script type="text/javascript">
         (function() {
-          emailjs.init("user_xy10aEP9r6GKP0X6emdCQ");
-             })();
+            emailjs.init("user_xy10aEP9r6GKP0X6emdCQ");
+        })();
     </script>
-    
     <title>HOLi-Dreams</title>
 </head>
 <body>
@@ -146,7 +145,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form onsubmit="return sendMail(this);">
+            <form id="contactForm" onsubmit="return sendMail(this);">
               <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">
@@ -172,16 +171,16 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <textarea  id="message" name="message" rows="2" class="form-control md-textarea"> </textarea>
                             <label for="message">Your message</label>
                         </div>
 
                     </div>
                 </div>
-            </form>
-            <div class="text-center text-md-left">
+                <div class="text-center text-md-left">
                 <button type="submit" class="btn btn-success center-block"> Send</button>
             </div>
+            </form>
            
         </div>
         <!--Grid column-->
@@ -208,11 +207,13 @@
     <a href="https://www.linkedin.com/in/sara-sanchez-rodrigo-4b64451aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
  </div>
 </footer>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0nSS8zJQvnHqHu8ogzNFYt6LTvL0lJHk&callback=initMap"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>      
+<script src="assets/js/email.js"></script>
 </body>
 </html>

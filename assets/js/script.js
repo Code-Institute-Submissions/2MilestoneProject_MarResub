@@ -69,10 +69,12 @@ function initMap() {
             var locations = [{
                 lat: -32.4425900,
                 lng: -63.2258900
-            }, {
+            }, 
+            {
                 lat: 45.8144400,
                 lng: 15.9779800
-            }, {
+            }, 
+            {
                 lat: 11.24079 ,
                 lng: -74.19904
             }];
@@ -87,41 +89,11 @@ function initMap() {
             var markerCluster = new MarkerClusterer(map, markers, {
                 imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
+            
+            return false;
+       
         }
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Send Email
-function sendMail(conctactForm){
-    emailjs.send("Gmail","template_8oourjn",{
-        "from_name": conctactForm.name.value,
-        "from_email": conctactForm.emailaddress.value,
-        "info_request": contactFormsubject.value, 
-        
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  // To block from loading a new page
-}
 
 
