@@ -85,7 +85,7 @@ p{
 
 }
 .navbar-brand:hover {
-      color: #572364 ;
+      color: #572364;
 }
 
 
@@ -115,4 +115,19 @@ p{
    height:60vh;
    min-height:250px;
    padding-bottom: 20px;
+}
+
+/* footer and its text*/
+
+.page-footer {
+    background-color: #fafafa;
+}
+
+.footer-copyright {
+      color: #FF7F50;  
+}
+
+.footer-copyright:hover {
+     color: #572364;
+
 }
