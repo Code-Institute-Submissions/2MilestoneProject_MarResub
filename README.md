@@ -7,10 +7,17 @@ every month. The site is very visual and engaging. Allows the user to see which 
 
 Project Goals:
 
- *Offer a new point of view in terms of booking holidays through an agency.
+ * Offer a new point of view in terms of booking holidays through an agency.
  * Engage with actual and future clients, as new products are always available using pictures of the places and the actual location of the three possible destinations.
  * Provide the best service when assessing and presenting the travel options, so clients can fulfill their needs.
 
+### USER STORIES ###
+
+This website is offering three travel packages per month, where the client can see on display on the home page also visually
+shows the location through Google Maps.
+If clients are interested on the destination they can visit the destinations page where the three holiday-packages are explained,
+down every destination, there is a link button that directs the user to the information page which is an email request form.
+Users could also access the contact page through the navbar or by scrolling down the page. 
 ### Design Process ###
 
 ##### Strategy Plane: ####
